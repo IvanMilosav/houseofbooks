@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/houseofbooks/static/css/main.ea1e8966.chunk.css",
-    "main.js": "/houseofbooks/static/js/main.b613545d.chunk.js",
-    "main.js.map": "/houseofbooks/static/js/main.b613545d.chunk.js.map",
+    "main.js": "/houseofbooks/static/js/main.e093c93a.chunk.js",
+    "main.js.map": "/houseofbooks/static/js/main.e093c93a.chunk.js.map",
     "runtime-main.js": "/houseofbooks/static/js/runtime-main.8be229a6.js",
     "runtime-main.js.map": "/houseofbooks/static/js/runtime-main.8be229a6.js.map",
     "static/js/2.97f21d4e.chunk.js": "/houseofbooks/static/js/2.97f21d4e.chunk.js",
     "static/js/2.97f21d4e.chunk.js.map": "/houseofbooks/static/js/2.97f21d4e.chunk.js.map",
     "index.html": "/houseofbooks/index.html",
-    "precache-manifest.d1236ef0dfe41e8caf3fa20a2174383a.js": "/houseofbooks/precache-manifest.d1236ef0dfe41e8caf3fa20a2174383a.js",
+    "precache-manifest.24319b86b04ae02275dc327deff37332.js": "/houseofbooks/precache-manifest.24319b86b04ae02275dc327deff37332.js",
     "service-worker.js": "/houseofbooks/service-worker.js",
     "static/css/main.ea1e8966.chunk.css.map": "/houseofbooks/static/css/main.ea1e8966.chunk.css.map",
     "static/js/2.97f21d4e.chunk.js.LICENSE.txt": "/houseofbooks/static/js/2.97f21d4e.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.8be229a6.js",
     "static/js/2.97f21d4e.chunk.js",
     "static/css/main.ea1e8966.chunk.css",
-    "static/js/main.b613545d.chunk.js"
+    "static/js/main.e093c93a.chunk.js"
   ]
 }

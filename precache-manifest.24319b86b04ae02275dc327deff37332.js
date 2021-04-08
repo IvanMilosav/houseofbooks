@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb8a5c9f2957c52ba652230b044039fe",
+    "revision": "b389bb774990c1159640959268e3b895",
     "url": "/houseofbooks/index.html"
   },
   {
-    "revision": "337f3b20376e36a5535e",
+    "revision": "7ae9ed78d18047f2c6e2",
     "url": "/houseofbooks/static/css/main.ea1e8966.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/houseofbooks/static/js/2.97f21d4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "337f3b20376e36a5535e",
-    "url": "/houseofbooks/static/js/main.b613545d.chunk.js"
+    "revision": "7ae9ed78d18047f2c6e2",
+    "url": "/houseofbooks/static/js/main.e093c93a.chunk.js"
   },
   {
     "revision": "430a477603e936d012d7",
