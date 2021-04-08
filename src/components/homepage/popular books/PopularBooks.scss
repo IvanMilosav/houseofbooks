@@ -1,0 +1,29 @@
+.popularbooks {
+  align-content: space-between;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+}
+.popularbooks-title {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  width: 100%;
+}
+.popularbooks-container {
+  align-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 1024px) {
+  .popularbooks {
+    padding: 0.5rem;
+  }
+}
