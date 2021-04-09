@@ -29,9 +29,9 @@ const SignUp = () => {
 
   const emailRegex = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
   const nameRegex = /^[a-zA-Z]{3,}(?: [a-zA-Z]+){1,2}$/;
-  const signUpUrl =
-    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyChrZYShFuZAEa3gN_kd6S4SGXpsejvExA";
 
+  const { REACT_APP_SIGN_UP } = process.env;
+  const signUpUrl = REACT_APP_SIGN_UP;
   // scrolls to top of page for better UX
   useEffect(() => {
     window.scrollTo(0, 0);

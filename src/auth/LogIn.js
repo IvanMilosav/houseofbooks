@@ -19,8 +19,9 @@ const LogIn = () => {
   const [passwordValid, setPasswordValid] = useState(false);
   const [fetchError, setFetchError] = useState(null);
   const emailRegex = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
-  const logInUrl =
-    "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyChrZYShFuZAEa3gN_kd6S4SGXpsejvExA";
+
+  const { REACT_APP_LOG_IN } = process.env;
+  const logInUrl = REACT_APP_LOG_IN;
 
   // scrolls to top of page for better UX
   useEffect(() => {
